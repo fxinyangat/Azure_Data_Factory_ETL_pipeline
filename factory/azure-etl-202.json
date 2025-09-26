@@ -1,0 +1,9 @@
+{
+	"name": "azure-etl-202",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "960e2c90-9b34-4fad-887b-d98151f33f9f",
+		"tenantId": "41f88ecb-ca63-404d-97dd-ab0a169fd138"
+	}
+}

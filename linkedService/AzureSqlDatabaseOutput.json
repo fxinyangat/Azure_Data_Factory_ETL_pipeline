@@ -1,0 +1,18 @@
+{
+	"name": "AzureSqlDatabaseOutput",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "destination",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "az-etl-sqlserver.database.windows.net",
+			"database": "az-etl-sqldb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "xavierde",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEY1QzVDRjA2LUI1ODMtNDg4MS04NDhFLTE1NTU3Q0I4RURCM18yMTk2MGJiOS03YzhiLTRiYzUtODhiNy1lOWZiYjVmN2Y5NTIiDQp9"
+		}
+	}
+}
